@@ -1,5 +1,13 @@
 # Hermes Web UI -- Changelog
 
+## [v0.50.142] — 2026-04-22
+
+### Added
+- **Refresh button in Tasks/Scheduled Jobs panel** — a ↺ button next to "+ New job"
+  reloads the job list without a full page reload. Dims while fetching. Also wires up a
+  `hermes:cron_created` window event so the list auto-refreshes when a job is created from
+  chat (the agent path can dispatch this event). Closes #835.
+
 ## [v0.50.141] — 2026-04-22
 
 ### Fixed
