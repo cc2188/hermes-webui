@@ -7,7 +7,7 @@
   Default (14px), and Large (16px) text size from the Appearance settings tab. The choice
   is stored in `localStorage` and applied via a `data-font-size` attribute on `<html>` at
   boot time (no FOUC). Follows the same three-button visual pattern as the Theme picker.
-  Localized for all 6 supported locales. Closes #830.
+  Localized for all 6 supported locales. Closes #833.
 
 
 ## [v0.50.140] — 2026-04-22
