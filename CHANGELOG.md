@@ -1,5 +1,14 @@
 # Hermes Web UI -- Changelog
 
+## [v0.50.144] — 2026-04-22
+
+### Fixed
+- **Slash command dropdown now scrolls to keep selected item visible** — pressing ↓/↑
+  to navigate a long slash command list no longer lets the highlighted item scroll out
+  of the visible dropdown area. Added `scrollIntoView({block:'nearest'})` to
+  `navigateCmdDropdown()`. Closes #838.
+
+
 ## [v0.50.141] — 2026-04-22
 
 ### Fixed
